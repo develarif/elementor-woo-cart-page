@@ -1,0 +1,107 @@
+selector table.shop_table {
+    border: 1px solid #d3ced2;
+    border-top: 3px solid #ff6400;
+    border-radius: 0;
+    background: #ffffff;
+    border-collapse: collapse;
+}
+
+selector table tr {
+    border-collapse: collapse !important;
+    border-top: 1px solid #dfdfdf;
+}
+
+selector table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {
+    background-color: #ffffff !important;
+}
+
+selector table td, table th {
+    border: none !important;
+}
+selector table.shop_table td {
+    border-top: none;
+    padding: 25px 12px !important;
+}
+selector .woocommerce table.shop_table th {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    font-family: 'roboto';
+    font-weight: 400;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+selector table tr td input[type=number] {
+    border: 1px solid #dfdfdf;
+    border-radius: 0;
+}
+
+selector tr td button.button {
+    padding: 12px 15px;
+    border: 1px solid #ff6400;
+    border-radius: 0;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'roboto';
+    text-transform: uppercase;
+    background: #fff;
+    color: #ff6400;
+    transition: background .4s;
+}
+
+selector tr td button.button:hover {
+    background:  #ff6400;
+    color: #fff;
+}
+
+selector tr td input#coupon_code {
+    width: 150px;
+    padding: 7px 10px;
+    border-radius: 0;
+    font-family: 'roboto';
+}
+
+selector .cart_totals  {
+    width: 100% !important;
+}
+
+selector .shop_table.shop_table_responsive tr td {
+    padding: 12px !important;
+}
+
+selector .wc-proceed-to-checkout {
+    width: 280px;
+    margin-left: auto;
+}
+
+selector a.checkout-button {
+    background-color: #fff !important;
+    transition: .4s;
+     border: 1px solid #ff6400;
+    border-radius: 0;
+    color: #ff6400 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 30px !important;
+    font-family: 'roboto';
+    font-size: 1em;
+}
+selector .checkout-button:hover {
+    background:  #ff6400 !important;
+    color: #fff !important;
+}
+selector td.product-name > a {
+    color: #ff6400;
+    font-family: "Martel Sans", Sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+selector td span {
+    color: #000;
+    font-family: "Martel Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
